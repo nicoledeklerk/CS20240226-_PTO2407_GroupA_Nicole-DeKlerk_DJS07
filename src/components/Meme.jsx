@@ -17,7 +17,6 @@ export default function Meme() {
         getMemes()
     }, [])
     
-    
     function getMemeImage() {
         const randomNumber = Math.floor(Math.random() * allMemes.length)
         const url = allMemes[randomNumber].url
@@ -25,7 +24,6 @@ export default function Meme() {
             ...prevMeme,
             randomImage: url
         }))
-        
     }
     
     function handleChange(event) {
