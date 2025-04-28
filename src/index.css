@@ -60,7 +60,12 @@ main {
 }
 
 .meme {
+  display: flex;  /* Activate Flexbox */
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;  /* Centers vertically */
   position: relative;
+  width: 100%;  /* Ensures container spans full width */
+  height: 100vh;  /* Makes container take full viewport height */
 }
 
 .meme--image {
