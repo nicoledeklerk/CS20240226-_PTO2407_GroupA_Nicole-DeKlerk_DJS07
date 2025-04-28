@@ -1,4 +1,4 @@
-import React from "react"
+
 import Header from "./components/Header"
 /**
  * Challenge: Build the Header component
